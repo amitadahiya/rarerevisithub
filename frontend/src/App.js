@@ -6,7 +6,6 @@ import { Sidebar } from './components/Sidebar';
 import Dashboard from './pages/Dashboard';
 import Products from './pages/Products';
 import ContentStudio from './pages/ContentStudio';
-import Settings from './pages/Settings';
 
 function App() {
   return (
@@ -19,7 +18,7 @@ function App() {
               <Route path="/" element={<Dashboard />} />
               <Route path="/products" element={<Products />} />
               <Route path="/content" element={<ContentStudio />} />
-              <Route path="/settings" element={<Settings />} />
+              <Route path="/settings" element={<ComingSoon title="Settings" />} />
               <Route path="/scheduler" element={<ComingSoon title="Scheduler" />} />
               <Route path="/inbox" element={<ComingSoon title="Social Inbox" />} />
               <Route path="/analytics" element={<ComingSoon title="Analytics" />} />
