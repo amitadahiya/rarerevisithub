@@ -1,0 +1,148 @@
+{
+  "brand_identity": {
+    "name": "Rare Revisit",
+    "archetype": "Jewel & Luxury",
+    "vibe": "Timeless Elegance, Poetic Precision, Ritualistic",
+    "target_audience": "Luxury Fragrance Business Owner",
+    "emotional_tone": "Sophisticated, Exclusive, Efficient, Calm"
+  },
+  "typography": {
+    "font_family": {
+      "heading": "Playfair Display, serif",
+      "body": "Manrope, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "import_url": "https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap",
+    "scale": {
+      "h1": "text-4xl md:text-5xl lg:text-6xl font-serif tracking-tight",
+      "h2": "text-3xl md:text-4xl font-serif tracking-tight",
+      "h3": "text-2xl md:text-3xl font-serif",
+      "body_lg": "text-lg font-sans leading-relaxed",
+      "body_base": "text-base font-sans leading-relaxed",
+      "caption": "text-xs font-sans uppercase tracking-widest text-muted-foreground"
+    }
+  },
+  "colors": {
+    "theme": "dark",
+    "palette": {
+      "background": "#0A0A0A",
+      "foreground": "#F5F5F5",
+      "card": "#121212",
+      "card_foreground": "#FFFFFF",
+      "popover": "#121212",
+      "popover_foreground": "#FFFFFF",
+      "primary": "#D4AF37",
+      "primary_foreground": "#000000",
+      "secondary": "#2A2A2A",
+      "secondary_foreground": "#FFFFFF",
+      "muted": "#1F1F1F",
+      "muted_foreground": "#A1A1AA",
+      "accent": "#D4AF37",
+      "accent_foreground": "#000000",
+      "destructive": "#7F1D1D",
+      "destructive_foreground": "#FFFFFF",
+      "border": "#2A2A2A",
+      "input": "#2A2A2A",
+      "ring": "#D4AF37"
+    },
+    "gradients": {
+      "gold_shimmer": "linear-gradient(135deg, #D4AF37 0%, #FFE5B4 50%, #D4AF37 100%)",
+      "obsidian_glass": "linear-gradient(180deg, rgba(18,18,18,0.8) 0%, rgba(10,10,10,0.9) 100%)"
+    }
+  },
+  "visual_enhancers": {
+    "radius": "0.25rem",
+    "glassmorphism": {
+      "default": "backdrop-blur-xl bg-black/40 border border-white/10",
+      "heavy": "backdrop-blur-2xl bg-black/60 border border-white/10"
+    },
+    "shadows": {
+      "glow": "0 0 20px -5px rgba(212, 175, 55, 0.3)",
+      "card": "0 4px 24px -4px rgba(0, 0, 0, 0.5)"
+    },
+    "borders": {
+      "subtle": "border border-white/5",
+      "highlight": "border border-[#D4AF37]/30"
+    }
+  },
+  "layout_strategy": {
+    "dashboard_grid": "grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 gap-6 p-6 md:p-8",
+    "container_padding": "p-6 md:p-8 lg:p-12",
+    "spacing_scale": "relaxed"
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#D4AF37] text-black hover:bg-[#C5A059] font-medium rounded-sm px-6 py-2 transition-all duration-300 shadow-[0_0_15px_rgba(212,175,55,0.2)] hover:shadow-[0_0_25px_rgba(212,175,55,0.4)]",
+      "secondary": "bg-white/5 text-white border border-white/10 hover:bg-white/10 hover:border-white/20 rounded-sm px-6 py-2 transition-all duration-300",
+      "ghost": "text-white/70 hover:text-[#D4AF37] hover:bg-transparent transition-colors duration-300"
+    },
+    "cards": {
+      "default": "bg-[#121212] border border-white/5 rounded-sm p-6 hover:border-[#D4AF37]/20 transition-colors duration-300",
+      "glass": "backdrop-blur-xl bg-black/40 border border-white/10 rounded-sm p-6"
+    },
+    "inputs": {
+      "default": "bg-[#0A0A0A] border border-white/10 focus:border-[#D4AF37] focus:ring-1 focus:ring-[#D4AF37] rounded-sm h-10 px-4 text-sm transition-all duration-300 placeholder:text-white/20"
+    }
+  },
+  "image_urls": {
+    "avatar": "https://www.rarerevisit.com/lovable-uploads/product_images/avatar.png",
+    "products": [
+      {
+        "name": "Golden Oud",
+        "url": "https://www.rarerevisit.com/lovable-uploads/product_images/Golden.png"
+      },
+      {
+        "name": "Royal Oud",
+        "url": "https://www.rarerevisit.com/lovable-uploads/product_images/Royal.png"
+      },
+      {
+        "name": "Pearl Oud",
+        "url": "https://www.rarerevisit.com/lovable-uploads/product_images/Pearl.png"
+      },
+      {
+        "name": "Jasper Noir",
+        "url": "https://www.rarerevisit.com/lovable-uploads/product_images/Jasper.png"
+      }
+    ],
+    "moods": {
+      "sensual": "https://images.unsplash.com/photo-1761329842950-f3551938e4da?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBwZXJmdW1lJTIwbW9vZCUyMHNlbnN1YWwlMjBkYXJrJTIwbGlnaHRpbmclMjBnb2xkfGVufDB8fHx8MTc3MDA2MDQxOHww&ixlib=rb-4.1.0&q=85",
+      "fresh": "https://images.unsplash.com/photo-1744639745305-3df711e1525a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHwxfHxmcmVzaCUyMG1vcm5pbmclMjBnYXJkZW4lMjBkZXclMjBsdXh1cnklMjBmcmFncmFuY2UlMjBtb29kfGVufDB8fHx8MTc3MDA2MDQyNHww&ixlib=rb-4.1.0&q=85",
+      "woody": "https://images.unsplash.com/photo-1743915834302-59e283ed17cd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHwxfHx3b29keSUyMGZvcmVzdCUyMHRleHR1cmUlMjBsdXh1cnklMjBzY2VudCUyMG1vb2R8ZW58MHx8fHwxNzcwMDYwNDMwfDA&ixlib=rb-4.1.0&q=85",
+      "floral": "https://images.unsplash.com/photo-1714000699283-0b782721fe67?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjQyMTd8MHwxfHNlYXJjaHwxfHxmbG9yYWwlMjBib3VxdWV0JTIwZWxlZ2FudCUyMGx1eHVyeSUyMHBlcmZ1bWUlMjBtb29kfGVufDB8fHx8MTc3MDA2MDQzNHww&ixlib=rb-4.1.0&q=85"
+    },
+    "textures": {
+      "black_marble": "https://images.unsplash.com/photo-1643324896137-f0928e76202a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwxfHxibGFjayUyMG1hcmJsZSUyMHRleHR1cmUlMjBnb2xkJTIwdmVpbnMlMjBsdXh1cnklMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc3MDA2MDQ0MHww&ixlib=rb-4.1.0&q=85"
+    }
+  },
+  "instructions_to_main_agent": [
+    "1. SETUP: Install 'lucide-react' and 'recharts' if not present. Add the Google Fonts import to index.css immediately.",
+    "2. THEME: Enforce DARK MODE as the default. The app should feel like a luxury boutique at night.",
+    "3. LAYOUT: Use the 'Bento Grid' strategy for the Dashboard. Avoid equal-sized cards. Use spans (col-span-2, row-span-2) to create visual interest.",
+    "4. COMPONENTS: Use Shadcn components but override the radius to 'rounded-sm' (0.25rem) for a sharper, more premium look. Avoid fully rounded buttons.",
+    "5. NAVIGATION: Create a sidebar navigation with a glassmorphism effect (backdrop-blur-xl).",
+    "6. MICRO-INTERACTIONS: Add subtle hover effects to all cards (border color change to Gold #D4AF37).",
+    "7. CHARTS: Use Recharts with custom tooltips. Style the chart lines with the Gold accent color.",
+    "8. IMAGES: Use the provided 'mood' images for the 'Shop by Mood' section and 'Content Studio' backgrounds.",
+    "9. TESTING: Add data-testid to all interactive elements (buttons, inputs, links)."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy",
+    "Use glass-morphism effects with backdrop filters (12-24px blur)",
+    "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms",
+    "You MUST NOT center align the app container, ie do not add .App { text-align: center; } in the css file. This disrupts the human natural reading flow of text",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯📚🎭🎬🎪🎉🎊🎁🎀🎂🍰🎈🎨🎰💰💵💳🏦💎🪙💸🤑📊📈📉💹🔢🏆🥇 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Main agent relies on these image URLs. Missing categories (especially sponsor logos) = main agent will use placeholder text which is FORBIDDEN",
+    "Prioritize using pre-existing components from src/components/ui when applicable",
+    "Create new components that match the style and conventions of existing components when needed",
+    "Examine existing components to understand the project's component patterns before creating new ones",
+    "Components MUST use named exports (export const ComponentName = ...)",
+    "Pages MUST use default exports (export default function PageName() {...})",
+    "Use sonner for toasts"
+  ]
+}
