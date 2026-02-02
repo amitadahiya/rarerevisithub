@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Key, CheckCircle, XCircle } from 'lucide-react';
-import { toast } from 'sonner';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
@@ -28,22 +27,22 @@ const Settings = () => {
   const platformInfo = {
     instagram: {
       name: 'Instagram',
-      guide: 'Get API keys from Facebook Developer Console → Create App → Instagram Graph API',
+      guide: 'Get API keys from Facebook Developer Console -> Create App -> Instagram Graph API',
       fields: ['App ID', 'App Secret', 'Access Token']
     },
     facebook: {
       name: 'Facebook',
-      guide: 'Get API keys from Facebook Developer Console → Create App → Facebook Graph API',
+      guide: 'Get API keys from Facebook Developer Console -> Create App -> Facebook Graph API',
       fields: ['App ID', 'App Secret', 'Access Token']
     },
     pinterest: {
       name: 'Pinterest',
-      guide: 'Get API keys from Pinterest Developers → Create App → Get Access Token',
+      guide: 'Get API keys from Pinterest Developers -> Create App -> Get Access Token',
       fields: ['App ID', 'App Secret', 'Access Token']
     },
     twitter: {
       name: 'Twitter (X)',
-      guide: 'Get API keys from Twitter Developer Portal → Create Project → Generate Keys',
+      guide: 'Get API keys from Twitter Developer Portal -> Create Project -> Generate Keys',
       fields: ['API Key', 'API Secret', 'Bearer Token', 'Access Token', 'Access Secret']
     }
   };
@@ -118,10 +117,10 @@ const Settings = () => {
             <strong className="text-white">Step 2:</strong> Once you have your API keys, contact support or use the integration settings to add them securely.
           </p>
           <p>
-            <strong className="text-white">Step 3:</strong> After connecting, you'll be able to schedule posts, auto-reply to messages, and track analytics across all platforms.
+            <strong className="text-white">Step 3:</strong> After connecting, you will be able to schedule posts, auto-reply to messages, and track analytics across all platforms.
           </p>
           <p className="text-[#D4AF37] mt-4">
-            💡 For now, you can use the Content Studio to generate AI-powered captions and save drafts. Real posting will be enabled once you connect your accounts.
+            For now, you can use the Content Studio to generate AI-powered captions and save drafts. Real posting will be enabled once you connect your accounts.
           </p>
         </div>
       </div>
