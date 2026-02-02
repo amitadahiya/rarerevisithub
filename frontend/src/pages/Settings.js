@@ -20,7 +20,6 @@ const Settings = () => {
       setSocialAccounts(response.data);
     } catch (error) {
       console.error('Error fetching social accounts:', error);
-      toast.error('Failed to load social accounts');
     } finally {
       setLoading(false);
     }
